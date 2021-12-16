@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_301" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="com.example.entities.flowers.HybridFlower">
+    <void property="colour">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>com.example.entities.flowers.Colour</class>
+      <string>RED_WHITE</string>
+     </object>
+    </void>
+    <void property="freshness">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>com.example.entities.flowers.Freshness</class>
+      <string>FRESH</string>
+     </object>
+    </void>
+    <void property="name">
+     <string>Double Delight Rose</string>
+    </void>
+    <void property="price">
+     <double>2.25</double>
+    </void>
+    <void property="stemLength">
+     <int>120</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.example.entities.flowers.HybridFlower">
+    <void property="colour">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>com.example.entities.flowers.Colour</class>
+      <string>BLUE_WHITE</string>
+     </object>
+    </void>
+    <void property="freshness">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>com.example.entities.flowers.Freshness</class>
+      <string>NOT_FRESH</string>
+     </object>
+    </void>
+    <void property="name">
+     <string>Blue Dragon Rose</string>
+    </void>
+    <void property="price">
+     <double>5.5</double>
+    </void>
+    <void property="stemLength">
+     <int>110</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.example.entities.flowers.Flower">
+    <void property="freshness">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>com.example.entities.flowers.Freshness</class>
+      <string>ALMOST_FRESH</string>
+     </object>
+    </void>
+    <void property="name">
+     <string>Sunflower</string>
+    </void>
+    <void property="price">
+     <double>10.0</double>
+    </void>
+    <void property="stemLength">
+     <int>200</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.example.entities.flowers.Flower">
+    <void property="freshness">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>com.example.entities.flowers.Freshness</class>
+      <string>WITHERED</string>
+     </object>
+    </void>
+    <void property="name">
+     <string>Chamomile</string>
+    </void>
+    <void property="price">
+     <double>1.15</double>
+    </void>
+    <void property="stemLength">
+     <int>90</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.example.entities.accessories.WrapperFilm">
+    <void property="colour">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>com.example.entities.accessories.Colour</class>
+      <string>TRANSPARENT</string>
+     </object>
+    </void>
+    <void property="length">
+     <double>0.5</double>
+    </void>
+    <void property="priceForSquareMeter">
+     <double>58.0</double>
+    </void>
+    <void property="width">
+     <double>0.2</double>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.example.entities.accessories.Ribbon">
+    <void property="colour">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>com.example.entities.accessories.Colour</class>
+      <string>RED</string>
+     </object>
+    </void>
+    <void property="length">
+     <double>1.0</double>
+    </void>
+    <void property="pricePerMeter">
+     <double>3.0</double>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
